@@ -1,0 +1,52 @@
+#final {
+  margin-right: 150px;
+}
+
+#content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10%;
+}
+
+#content ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 25px;
+}
+
+#content li {
+  list-style: none;
+}
+
+#content li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 15px;
+}
+
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #6a11cb;
+  /* Chrome 10-25, Safari 5.1-6 */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-gradient(linear, left top, right top, from(#6a11cb), to(#2575fc));
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+}
+/*# sourceMappingURL=estilos.css.map */
+
+.enunciados{
+  background-color: #7cfddd;
+  padding: 50px;
+}

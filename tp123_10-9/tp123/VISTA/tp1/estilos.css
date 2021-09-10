@@ -1,0 +1,31 @@
+*{
+    font-family: Helvetica, sans-serif;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: auto;
+}
+form input{
+    max-width: 150px;
+}
+form select{
+    width: 50px;
+    max-width: 150px;   
+}
+form div{
+    padding: 10px;
+}
+
+span{
+    font-size: 18px;
+}
+.enunciados{
+    background-color: #7cfddd;   
+    padding: 50px;
+}
+
+body{
+    background-color: rgb(69, 193, 250);
+}
